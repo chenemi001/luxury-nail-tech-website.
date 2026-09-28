@@ -1,36 +1,150 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Luxe Nails 💅
 
-## Getting Started
+A modern, luxury nail-tech website designed to showcase nail artistry, highlight services, and make appointment booking effortless. Built with Next.js, TypeScript, Tailwind CSS, and Framer Motion, it combines elegant visuals with smooth animations and a responsive user experience.
 
-First, run the development server:
+🌐 **Live Demo:** [View Website](https://luxury-nail-tech-website.vercel.app/)  
+📦 **Repository:** [GitHub](https://github.com/chenemi001/luxury-nail-tech-website)
+
+---
+
+## ✨ Features
+
+- **Luxury UI:** An elegant design with refined typography, soft pink tones, and a sophisticated aesthetic.
+- **Responsive Design:** Optimized layouts for mobile, tablet, and desktop screens.
+- **Animated Hero Section:** Engaging entrance animations and polished visual details.
+- **Services Showcase:** Dedicated sections for displaying nail services.
+- **Nail Art Gallery:** An image gallery with continuous horizontal scrolling and interactive hover effects.
+- **About Section:** A dedicated space to introduce the nail technician and brand.
+- **Client Testimonials:** A section for showcasing authentic customer reviews.
+- **Booking CTA:** Clear calls to action that guide visitors toward making an appointment.
+- **Smooth Animations:** Subtle transitions and motion effects powered by Framer Motion.
+- **Reusable Components:** A modular component structure for easier maintenance and future improvements.
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| Next.js | React framework and application structure |
+| React | Component-based user interface |
+| TypeScript | Static typing and maintainable code |
+| Tailwind CSS | Responsive styling and design |
+| Framer Motion | Animations and transitions |
+| Lucide React | Interface icons |
+
+## 📁 Project Structure
+
+```text
+my-app/
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── About.tsx
+│   ├── BookingCTA.tsx
+│   ├── Experience.tsx
+│   ├── Footer.tsx
+│   ├── Gallery.tsx
+│   ├── Hero.tsx
+│   ├── Navbar.tsx
+│   ├── Services.tsx
+│   └── Testimonials.tsx
+├── public/
+│   └── images/
+│       └── nails/
+├── package.json
+└── README.md
+```
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally.
+
+### Prerequisites
+
+- Node.js (v20 or later recommended)
+- npm
+- Git
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/chenemi001/luxury-nail-tech-website.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd luxury-nail-tech-website
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 5. Open the application
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎨 Design Highlights
 
-## Learn More
+- **Color palette:** Soft pink, warm cream, muted rose, and deep brown.
+- **Typography:** Elegant serif headings paired with clean, readable sans-serif text.
+- **Visual style:** Minimalist luxury with editorial-inspired layouts.
+- **Interactions:** Subtle hover effects, smooth scrolling animations, and refined transitions.
 
-To learn more about Next.js, take a look at the following resources:
+## 📱 Responsiveness
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The website is designed to adapt to different screen sizes, including:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Mobile devices
+- Tablets
+- Laptops
+- Desktop displays
 
-## Deploy on Vercel
+## 🌍 Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The application can be deployed on [Vercel](https://vercel.com/), the hosting platform for Next.js applications.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Push the project to GitHub.
+2. Import the repository into Vercel.
+3. Configure the project settings if necessary.
+4. Deploy the application.
+
+Every subsequent push to the connected production branch can trigger a new deployment.
+
+## 🔮 Future Improvements
+
+- Functional appointment booking with date and time selection.
+- WhatsApp integration for booking enquiries.
+- Real client reviews and ratings.
+- Instagram integration and social media links.
+- Service pricing and availability management.
+- SEO enhancements and performance optimization.
+
+## 👩‍💻 Author
+
+**Victoria Audu**
+
+Frontend Developer
+
+- GitHub: [@chenemi001](https://github.com/chenemi001)
+- Portfolio: [View Portfolio](https://space-themed-portfolio-33gr.vercel.app/)
+
+## 📄 License
+
+This project is available for personal and educational use. Contact the author for other usage or licensing enquiries.
+
+---
+
+<p align="center">
+  Designed with ❤️ for beautiful nails.
+</p>
